@@ -4,8 +4,7 @@
     <Description>LightningQueues</Description>
     <VersionPrefix>0.4.0</VersionPrefix>
     <Authors>Corey Kaylor</Authors>
-    <TargetFramework>net7.0</TargetFramework>
-    <LangVersion>11</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>LightningQueues</AssemblyName>
     <PackageId>LightningQueues</PackageId>
     <PackageTags>queue;lightning;messaging;store-and-forward;</PackageTags>
@@ -13,9 +12,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotNext.IO" Version="4.12.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-    <PackageReference Include="System.IO.Pipelines" Version="7.0.0" />
+    <PackageReference Include="DotNext.IO" Version="4.15.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="System.IO.Pipelines" Version="8.0.0" />
   </ItemGroup>
 
 </Project>

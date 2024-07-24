@@ -4,8 +4,7 @@
     <Description>LightningQueues.Storage.LMDB</Description>
     <VersionPrefix>0.4.0</VersionPrefix>
     <Authors>Corey Kaylor</Authors>
-    <TargetFramework>net7.0</TargetFramework>
-    <LangVersion>11</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>LightningQueues.Storage.LMDB</AssemblyName>
     <PackageId>LightningQueues.Storage.LMDB</PackageId>
     <PackageTags>lmdb;lightning;storage;persistance;key-value;nosql;messaging;queue;</PackageTags>
@@ -17,7 +16,7 @@
   </ItemGroup>
     
   <ItemGroup>
-    <PackageReference Include="LightningDB" Version="0.15.0" />
+    <PackageReference Include="LightningDB" Version="0.16.0" />
   </ItemGroup>
     
 </Project>
